@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 15px 45px rgba(150, 149, 149, 0.244);
+}
+
+#logo1 {
+    width: 70px;
+}
+
+#logo {
+    display: flex;
+    justify-content: left;
+    padding: 1rem 1rem;
+}
+
+div {
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border: 4px;
+    color: black;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+ul {
+    padding: 0.5em
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: auto;
+    z-index: 1;
+}
+
+.dropdown .dropdownSkill a {
+    color: black;
+    padding: auto;
+    text-decoration: none;
+    display: block;
+}
+
+#liveDemo:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownSkill a {
+    padding-bottom: 3px;
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-color: #ebebeb;
+    border-width: 0.2px;
+}
+
+.dropdownSkill a:hover {
+    color: #df4917
+}
+
+#home:hover {
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-color: #df4917;
+}
+
+#liveDemo {
+    text-decoration: none;
+    color: black;
+}
+
+#liveDemo:hover {
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-color: #df4917;
+}
+
+#liveDemoB {
+    padding-right: 3em;
+}
+
+#liveDemoB:hover {
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-color: #df4917;
+}

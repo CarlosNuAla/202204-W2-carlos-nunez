@@ -1,0 +1,11 @@
+{
+  "name": "202204-w2-carlos-nunez",
+  "version": "1.0.0",
+  "description": "*****ISDI CODERS BOOTCAMP ONLINE*****\r ---------CHALLENGE WEEK 2------------\r Maquetación web con html y CSS, de una web de mascotas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

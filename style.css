@@ -105,3 +105,18 @@ ul {
     border-left: white;
     border-color: #df4917;
 }
+
+#buyNow {
+    outline-style: solid;
+    outline-color: #df4917;
+    border-radius: 0px 35px 35px 35px;
+}
+
+#buyNow:hover {
+    background-color: #df4917;
+    color: white;
+    border-radius: 0px 35px 35px 35px;
+    border-color:#df4917;
+    border-style: solid;
+}
+

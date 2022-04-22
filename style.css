@@ -120,3 +120,50 @@ ul {
     border-style: solid;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+    gap: 40em; 
+    margin-top: 100px;   
+}
+
+#titlesMain {
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.horizButton {
+    background-color: #df4917;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px 35px 35px 35px;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.horizButton:hover {
+    background-color: white;
+    outline-style: solid;
+    outline-color: #df4917;
+    color: #df4917;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #df4917;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight:bolder;
+    font-size: 60px;
+    margin-top: 10px;    
+}
+
